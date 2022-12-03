@@ -12,6 +12,7 @@
 .search_box .search .search_btn					{z-index: 1; display: flex; align-items: center; justify-content: center; width: 50px;height: 50px;transition:all 0.2s; position: absolute; right: 0; top: 50%; transform: translateY(-50%);}
 .search_box .search::after						{display:inline-block;content:'';width:1px;height:50px;background: #dedede;position:absolute;top:50%;left:0px;transform:translateY(-50%);}
 .search_box .search .search_btn svg								{width: 24px; fill: #999; transition: all .2s;}
+.search_box .search .search_btn:hover svg 						{fill: #4d6bb7;}
 .search_box .search input[type="text"]:focus+.search_btn svg	{fill: #4d6bb7;}
 
 
