@@ -11,8 +11,8 @@
 .search_box .search input[type="text"]:focus 	{border:1px solid #4d6bb7;}
 .search_box .search .search_btn					{z-index: 1; display: flex; align-items: center; justify-content: center; width: 50px;height: 50px;transition:all 0.2s; position: absolute; right: 0; top: 50%; transform: translateY(-50%);}
 .search_box .search::after						{display:inline-block;content:'';width:1px;height:50px;background: #dedede;position:absolute;top:50%;left:0px;transform:translateY(-50%);}
-.search_box .search .search_btn svg				{width: 24px; fill: #999;}
-
+.search_box .search .search_btn svg								{width: 24px; fill: #999; transition: all .2s;}
+.search_box .search input[type="text"]:focus+.search_btn svg	{fill: #4d6bb7;}
 
 
 
@@ -36,11 +36,12 @@
 .list_box ul li .text_box .bottom_text				{display: flex; justify-content: space-between; background: #eef4fe; padding: 15px 20px; text-align: right; font: 400 15px/16px "Poppins", "Noto Sans KR", sans-serifs; color: #576497; border-top: 1px dashed #d8dbe8; letter-spacing: -0.5px; position: absolute; bottom: 0; left: 0; width: 100%;}
 .list_box ul li:hover .text_box .bottom_text		{background: #f0f6ff; border-top: 1px dashed #f0f6ff;}
 
-.list_box ul li .text_box .bottom_text .luv 		{margin-bottom: -5px;}
-.list_box ul li .text_box .bottom_text .luv svg		{width: 18px; fill: #c1caef; }
-.list_box ul li .text_box .bottom_text .luv.on svg	{fill: #ff5895;}
-.list_box ul li .text_box .bottom_text .date		{display: flex; align-items: center;}
-.list_box ul li .text_box .bottom_text .date svg	{width: 16px; fill: #7b87b6; margin-right: 5px; margin-bottom: 1px;}
+.list_box ul li .text_box .bottom_text .luv 			{margin-bottom: -5px;}
+.list_box ul li .text_box .bottom_text .luv svg			{width: 18px; fill: #c1caef; transition: all .2s;}
+.list_box ul li .text_box .bottom_text .luv.on svg		{fill: #ff5895;}
+.list_box ul li .text_box .bottom_text .luv:hover svg	{fill: #ff5895;}
+.list_box ul li .text_box .bottom_text .date			{display: flex; align-items: center;}
+.list_box ul li .text_box .bottom_text .date svg		{width: 16px; fill: #7b87b6; margin-right: 5px; margin-bottom: 1px;}
 
 
 /* 페이지네이션 */
