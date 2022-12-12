@@ -7,7 +7,7 @@ import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 import org.blog.models.member.MemberType;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.*;
 
 

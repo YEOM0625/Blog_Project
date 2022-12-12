@@ -2,7 +2,7 @@ package org.blog.entity;
 
 import java.time.LocalDateTime;	// 작성 날짜
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.*;
 
 @Entity
