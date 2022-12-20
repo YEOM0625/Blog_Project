@@ -1,0 +1,10 @@
+CREATE TABLE member(
+	id varchar2(100) primary key,
+	name varchar2(100) unique,
+	pwd varchar2(100) not null,
+	tel varchar2(50) unique, 
+	email varchar2(200) unique,
+	nickname varchar2(100),
+	regdate date 
+);
+
