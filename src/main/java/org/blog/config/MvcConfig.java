@@ -25,6 +25,8 @@ public class MvcConfig implements WebMvcConfigurer{
 		ResourceBundleMessageSource ms = new ResourceBundleMessageSource();
 		ms.addBasenames("messages.common", "messages.errors");
 		return ms;
+		
+		
 	}
 	
 }
