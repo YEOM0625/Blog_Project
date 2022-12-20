@@ -20,4 +20,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 			.antMatchers("/admin/**").hasRole("ADMIN")
 			.antMatchers("/**").permitAll();
 	}
+	
+	//페이지 전체 잠금 해제.
 }
